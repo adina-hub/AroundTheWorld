@@ -1,0 +1,63 @@
+
+
+@import url("../../General.css");
+
+ *{
+ font-family: 'Cherry Swash', cursive;
+ }
+
+ html{
+  background: url("https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?auto=format&fit=crop&w=967&q=80") no-repeat center center fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+
+ }
+
+
+ .jumbotron{
+ 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+ 	       0px 8px 13px rgba(0,0,0,0.1),
+ 	       0px 18px 23px rgba(0,0,0,0.1);
+ 	color:white;
+ 	background-color: rgba(0,0,0,0.4);
+ }
+
+ body{
+ 	background: none;
+ 	padding-top: 5em;
+ }
+
+hr{
+	width: 60%;
+	margin-left: -1%;
+
+}
+
+p{
+	text-align: left;
+	line-height: 40px;
+}
+
+h2{
+	margin-top: 6%;
+}
+
+img{
+	width: 100%;
+	height: 600px;
+}
+
+#AmericaN {
+	height: 500px;
+}
+
+img {
+	width: 100%;
+	height: 600px;
+
+}
+
+#Bridge,#Ciudad,#Wash,#Havana{position: absolute;}

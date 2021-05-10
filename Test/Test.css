@@ -1,0 +1,177 @@
+@import url("../General.css");
+
+* {
+    font-family: 'Cherry Swash', cursive;
+}
+
+html {
+    background: url("https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?auto=format&fit=crop&w=967&q=80") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+body {
+    background: none;
+    padding-top: 5em;
+}
+
+.jumbotron h1 {
+    text-align: center;
+}
+
+.jumbotron {
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+    0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+hr {
+    border: 0;
+    height: 30px;
+    border-style: solid;
+    border-color: #8c8c8c;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 80%;
+    margin-bottom: 0;
+}
+
+label {
+    font-size: 1.3em;
+}
+
+form {
+    margin-bottom: 2em;
+}
+
+h3 {
+    margin-bottom: 1em;
+}
+
+.btn-success {
+    margin-bottom: -3%;
+    height: 10%;
+    width: 20%;
+    border-color: black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-left: 36%;
+    font-size: 1.3em;
+}
+
+.btn-success:hover {
+
+    background: rgba(0, 0, 0, 0.5);
+    border-color: black;
+}
+
+
+.btn-success:active:focus {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: black;
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.right {
+    float: right;
+}
+
+.radio {
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#punctaj {
+    font-size: 1.2em;
+    border-bottom: 2px dashed #D3D3D3;
+}
+
+.punctaj {
+    font-size: 1.8em;
+    margin-top: 1.8em;
+}
+
+.punctaj li {
+    margin-left: 2.3%;
+}
+
+#felicitari {
+    font-size: 2.8em;
+    margin-bottom: 0.6em;
+}
+
+#numar {
+    font-family: Courier;
+    font-weight: 700;
+}
+
+#firstItem {
+    margin-top: 0.3em;
+}
+
+#again:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-color: black;
+}
+
+
+#again {
+    margin-left: 40%;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: black;
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#again a {
+    text-decoration: none;
+    color: white;
+}
+
+.intrebariGresite {
+
+    font-size: 1.9em;
+    text-align: left;
+    margin-top: 2em;
+}
+
+.intrebari {
+
+    margin-top: 0.3em;
+    font-size: 0.9em;
+    list-style-type: none;
+}
+
+.intrebari:first-of-type {
+    margin-top: 0.6em;
+}
+
+#intrebari {
+    font-size: 1.2em;
+    border-bottom: 2px dashed #D3D3D3;
+}
+
+.resultImg{
+    height: 400px;
+    width: 100%;
+}
+
+.resultP{
+    margin-top: 25px;
+}
